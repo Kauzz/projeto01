@@ -1,0 +1,41 @@
+@media (max-width: 380px){
+    body {
+        width: 90%;
+        margin: auto;
+    }
+
+    .estrutura {
+        width: 360px;
+    }   
+}
+
+@media (max-width: 360px){
+    body {
+        width: 90%;
+        margin: auto;
+    }
+
+    .estrutura {
+        width: 350px;
+    }
+}
+
+@media (max-width: 290px){
+    body {
+        margin: auto;
+        width: 90%;
+    }
+
+    .estrutura {
+        width: 280px;
+        height: 630px;
+    }
+
+    .redes .plataformas {
+        gap: 10px;
+    }
+
+    .redes .plataformas li{
+        padding: 14px 60px;
+    }
+}
